@@ -1,10 +1,13 @@
 import qrcode
 
-print("General Purpose QR Code Generator \n")
+print("QR Code Generator \n")
 
-web_link = qrcode.make(input("Please type or paste your web link here: "))
+web_link = qrcode.make(input("Please either type or paste your url here: "))
 web_link.save("qrcode.png")
 
-print("\n")  #general spacing for visual consisancy
+print("\n")  # Just for spacing
 
-print("QR code generated successfully!")
+print("Your QR Code has been generated successfully! \n")
+print(
+  "Your QR Code is located in the folder 'qrcode.png', click on 'Show code' to your right to access the folder."
+)
