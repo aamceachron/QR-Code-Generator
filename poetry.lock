@@ -358,6 +358,14 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
+name = "pyperclip"
+version = "1.8.2"
+description = "A cross-platform clipboard module for Python. (Only handles plain text for now.)"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pypng"
 version = "0.20220715.0"
 description = "Pure Python library for saving and loading PNG images"
@@ -608,7 +616,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "83e0196143afb8983f7b8d0f3abe0101aceb010f5555f5622df2c560534e827b"
+content-hash = "eb839262f9cac31d986f4438b7922298271d91e89f7bbded708a18917b383fe5"
 
 [metadata.files]
 aiohttp = []
@@ -643,6 +651,7 @@ protobuf = []
 pycparser = []
 pycryptodomex = []
 pyflakes = []
+pyperclip = []
 pypng = []
 pyseto = []
 python-lsp-jsonrpc = []
