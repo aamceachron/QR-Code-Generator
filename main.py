@@ -1,8 +1,8 @@
 import qrcode
 
-print("Kings Data & Design - QR Code Generator \n")
+print("QR Code Generator \n")
 
-web_link = input("Enter the web link: ")
+web_link = input("Please type or paste your web link here: ")
 web_link = web_link.replace(" ", "%20")
 qr = qrcode.QRCode(
     version=1,
